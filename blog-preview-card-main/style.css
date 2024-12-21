@@ -48,8 +48,9 @@ body{
     font-size: 14px;
 }
 .wrapper > .profile{
-    display: inline-block;
-    margin-bottom: 10px;
+    display: flex;
+    align-items: center; /* Ensures the image and text are vertically center-aligned */
+    gap: 1rem; /* Adjust the gap as needed for proper spacing */
 }
 .wrapper > .profile > .avatar{
     width: 3rem;
